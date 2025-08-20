@@ -33,6 +33,6 @@ class VerTarefa:
             except ValueError: #Tratamento de erro para valores inválidos
                 print("Por favor, digite um número válido!") #Mensagem exibida quando a entrada não é um número
 
-    @staticmethod #Utilizado para mostrar uma função estática
+    @staticmethod
     def mostrar_mensagem(message):
         print(f"\n{message}")
